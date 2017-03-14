@@ -35,7 +35,7 @@ var MovieDetails = require('./components/MovieDetails')
 var MovieList = require('./components/MovieList')
 var NoCurrentMovie = require('./components/NoCurrentMovie')
 var SortBar = require('./components/SortBar')
-var SortBarItems = require('./components/SortBarItems')
+var SortBarItem = require('./components/SortBarItem')
 var TheatresMaps = require('./components/TheatresMaps')
 
 // Firebase configuration
