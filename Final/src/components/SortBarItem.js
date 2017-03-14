@@ -1,6 +1,6 @@
 var React = require('react')
 
-var SortBarItems = React.createClass({
+var SortBarItem = React.createClass({
       render: function() {
       return (
         <li className={this.props.currentView === this.props.view ? "active" : ""}>
@@ -10,4 +10,4 @@ var SortBarItems = React.createClass({
     }
   })
 
-module.exports = SortBarItems;
+module.exports = SortBarItem;
